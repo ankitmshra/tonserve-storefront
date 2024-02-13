@@ -1,0 +1,56 @@
+
+
+.home-container {
+background-image: url('https://hfh.tonserve.com/assets/images/home-banner/2.jpg');
+  /* Adjust background properties as needed */
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+}
+
+.home-text-container {
+  position: absolute;
+  left: 10rem;
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home-banner-text1 {
+  letter-spacing: .4em;
+  color: #777;
+  margin-bottom: -1rem;
+}
+
+.home-banner-text2 {
+  font-size: 3rem;
+}
+
+.btn-solid:hover {
+  background-position: 100%;
+  color: #000 !important;
+  background-color: #fff;
+}
+
+.btn, .btn:hover {
+  transition: .3s ease-in-out;
+}
+
+.btn-solid {
+  padding: 13px 29px;
+  color: #fff !important;
+  letter-spacing: .05em;
+  border: 2px solid #211E5E;
+  background-image: linear-gradient(30deg,#211E5E 50%,transparent 50%);
+  background-size: 540px;
+  background-repeat: no-repeat;
+  background-position: 0;
+  // transition: background .3s ease-in-out;
+}
+.btn {
+  line-height: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 0;
+}
